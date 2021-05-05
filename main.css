@@ -1,0 +1,271 @@
+/* Fonts */
+@import url(//db.onlinewebfonts.com/c/a33326e52f8a8fb69328e8ef3f33876f?family=WRESTLEMANIA);
+
+@font-face {
+  font-family: "WRESTLEMANIA";
+  src: url("//db.onlinewebfonts.com/t/a33326e52f8a8fb69328e8ef3f33876f.eot");
+  src: url("//db.onlinewebfonts.com/t/a33326e52f8a8fb69328e8ef3f33876f.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/a33326e52f8a8fb69328e8ef3f33876f.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/a33326e52f8a8fb69328e8ef3f33876f.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/a33326e52f8a8fb69328e8ef3f33876f.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/a33326e52f8a8fb69328e8ef3f33876f.svg#WRESTLEMANIA")
+      format("svg");
+}
+
+/*Common elements*/
+
+div.clear {
+  clear: both;
+  font-size: 1%;
+}
+
+/* Header */
+header {
+  background: black center 0px;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 3px 3px 3px grey;
+}
+
+header h1 {
+  font-family: "WRESTLEMANIA";
+  background: -webkit-linear-gradient(top, #8f6b29, #fde08d, #df9f28);
+  background: linear-gradient(top, #8f6b29, #fde08d, #df9f28);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5.5em;
+  font-weight: lighter;
+  letter-spacing: 0.025em;
+  margin: -5px 0 0 4em;
+  /* text-shadow: 1.5px 1.5px 0 grey; */
+  offset: 0;
+  blur-radius: 0 color;
+}
+
+
+header h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: -80px 10px -10px 117em;
+  text-transform: none;
+  letter-spacing: 0.05em;
+}
+
+li input#search {
+    vertical-align: middle;
+    margin: -05em 100rem 0px 50em;
+    width: 400px;
+    height: 30px;
+  }
+
+#img {
+  position: fixed;
+  margin-top: -54px;
+  margin-left: 90%;
+}
+
+#wwwf {
+position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+/* The side navigation menu */
+
+.sidebar {
+  margin-top: 7em;
+  margin-left: 5px;
+  margin-bottom: auto;
+  padding: 0;
+  width: 200px;
+  background-color: #a39370;
+  position: fixed;
+  height: 307px;
+  /* border: 1px solid black;
+  border-radius: 1px; */
+}
+
+/* Sidebar links */
+
+.sidebar a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  display: block;
+  color: black;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+
+.sidebar a.active {
+  background: -webkit-linear-gradient(top, #8f6b29, #fde08d, #df9f28);
+  background: linear-gradient(top, #8f6b29, #fde08d, #df9f28);
+  color: black;
+}
+
+/* Links on mouse-over */
+
+.sidebar a:hover:not(.active) {
+  background-color: #c4a747;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/*Main Section*/
+section #main {
+  /* background-color: #fcfbe6; */
+  background-color: rgba(252, 251, 243, 0.7);
+  margin: -30% 0 0 -20%;
+  padding: 25px 0 25px 25em;
+  display: inline-block;
+  border-radius: 2em;
+  box-shadow: 1px 1px 5px #777;
+}
+
+section #main2 {
+    /* background-color: #fcfbe6; */
+    background-color: rgba(252, 251, 243, 0.7);
+    margin: -30% 0 0 -20%;
+    padding: 25px 0 25px 25em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+  }
+
+section div.panel {
+  float: left;
+  position: static;
+  width: 230px;
+  height: 480px;
+  margin: 7em 1em -4em 0em;
+  padding: 1em;
+  background-color: #fff;
+  border: #ccc solid 1px;
+  border-radius: 0.6em;
+}
+
+section div.panel img.figure {
+  width: 65%;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: #A39370;
+    margin: -5 10px 0 91em;
+    text-transform: none;
+    letter-spacing: 0.02em;
+  }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.contentWrapper {
+    margin: 0 5px;
+    max-width: 3000px;
+    padding: 0 1em;
+  }
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+body {
+font-size: 80%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background: gray;
+padding: 5;
+margin: 5;
+display: grid;
+}
+
+p {
+    font-size: 1.0em;
+    line-height: 1.4em;
+    color: #555;
+    padding: 0px;
+    margin: 0px 0.5px 0.75em 0px;
+  }
+
+button {
+  color: black;
+  background-color: #bb981d;
+  margin: auto;
+  padding: 2 2 2 2;
+  border: 1px solid black;
+  text-transform: none;
+  border-radius: 0.2em;
+}
+
+button:hover {
+  background: -webkit-linear-gradient(top, #8f6b29, #fde08d, #df9f28);
+  background: linear-gradient(top, #8f6b29, #fde08d, #df9f28);
+  border: 1px solid #745b2f;
+  border-radius: 0.2em;
+}
+
+/*Footer*/
+footer {
+  background-color: #e0c56e;
+  height: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  margin-top: 131.25em;
+  padding: 1.5em 2em;
+  width: 100%;
+}
+
+footer ul#menuFooter {
+  display: inline-block;
+  list-style: none;
+  margin: 0 0 0 0.6em;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 0.7em 0 0;
+  margin: 0;
+}
+
+footer ul li::before {
+  content: "|";
+  padding-right: 0.7em;
+}
+
+footer a,
+footer a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: blue;
+  text-decoration: underline;
+}
